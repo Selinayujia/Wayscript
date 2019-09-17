@@ -1,0 +1,17 @@
+<html>
+    <head>
+<!--include head.txt -->
+        <title>
+            Wayscript Utilites Project
+        </title>
+    </head>
+
+    <body>
+<!--include logo.txt -->
+<!--include menu.txt -->
+        <h1>
+            Wayscript Utilites Project
+        </h1>
+
+    </body>
+</html>

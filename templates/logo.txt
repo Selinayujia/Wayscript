@@ -1,0 +1,6 @@
+        <div style="text-align:center">
+            <figure class="logo">
+				<img src="https://cdn.wayscript.com/static/img/logos/no_face.png">
+            </figure>
+        </div>
+

@@ -1,0 +1,35 @@
+<html>
+    <head>
+<!--include head.txt -->
+        <title>
+            About This Project
+        </title>
+    </head>
+
+    <body>
+<!--include logo.txt -->
+<!--include menu.txt -->
+        <h1>
+            About This Project
+        </h1>
+
+        <p>
+            This project is being masterminded by Yujia Zhang.
+            The goal is to use Wayscript to create Internet 
+            utilities useful to NYU Tandon's DevOps efforts.
+        </p>
+
+        <p>
+            Team members:
+        </p>
+
+        <ul>
+            <li>
+            </li>
+
+            <li>
+            </li>
+        </ul>
+
+    </body>
+</html>

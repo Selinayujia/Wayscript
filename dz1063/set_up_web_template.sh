@@ -9,8 +9,6 @@ add_file()
 targetDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 utilsDir=$targetDir/utils
 
-echo $utilsDir
-
 # If there is an path given
 if [[ -n $1 ]]; then
     targetDir=$1

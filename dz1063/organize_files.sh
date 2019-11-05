@@ -4,20 +4,22 @@
 # Needs a folder path to what you want to apply the script on
 
 targetDir=
-
+#-n not empty
+#if first line after bin aka target directory
 if [[ -n $1 ]]; then
-    targetDir=$1
+targetDir=$1 #set target directory
 else
     echo "Incorrect usage: requires folder path."
     echo "Example: ./organize_files academic/"
     exit 1
-fi
+fi #finish if
 
 # List all files in the target directory
 directoryFiles=()
+#read reads words from a (possibly backslash-continued) line, where words are $IFS
 while IFS= read -r line; do
-    directoryFiles+=( "$line" )
-done < <( ls $targetDir )
+    directoryFiles+=( "$line" )#adds to files
+done < <( ls $targetDir ) #now list all in target D
 
 # Loop through results from ls command
 for file in "${directoryFiles[@]}"
